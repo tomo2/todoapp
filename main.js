@@ -1,9 +1,9 @@
 'use strict'
 
 {
-    const text = document.getElementsByClassName('text');
-    const btn = document.getElementsByClassName('btn');
-    const list = document.getElementsByClassName('list');
+    const text = document.getElementsByClassName('text')[0];
+    const btn = document.getElementsByClassName('btn')[0];
+    const list = document.getElementsByClassName('list')[0];
 
     // 追加ボタン
     const addtasks = (task) => {
@@ -27,7 +27,7 @@
         // 消去ボタンに機能を付与
         const deleteTasks = (deleteButton) => {
             const chosenTask = deleteButton.closest('li');
-            taskList.removeChild(chosenTask);
+            list.removeChild(chosenTask);
         };
 
         // 追加ボタンに機能を付与
