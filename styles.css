@@ -1,0 +1,36 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    width: 960px;
+    margin: 1px auto;
+    font-family: sans-serif
+}
+
+.text {
+    height: 30px;
+}
+
+.btn {
+    height: 30px;
+}
+
+#table {
+    background-color: rosybrown;
+    width: 50%;
+    height: 400px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+h2 {
+    font-size: 25px;
+    padding: 10px;
+}
+
+li {
+    margin: 2px 2px;
+    display: flex;
+    justify-content: space-between;
+}
