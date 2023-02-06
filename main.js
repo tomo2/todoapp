@@ -14,7 +14,7 @@
 
         // 消去ボタンを付与
         const deleteButton = document.createElement('button');
-        deleteButton.innerHTML = 'Delete';
+        deleteButton.innerHTML = '消去';
         listItem.appendChild(deleteButton);
 
         // 消去処理を実行
